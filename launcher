@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
+			<script src="img_url.js"></script>
+			<script src="genetic.js"></script>
+			<script src="neuralNetwork.js"></script>
+			<script src="bird.js"></script>
+			<script src="pipe.js"></script>
+			<script src="script.js"></script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+
+</html>
