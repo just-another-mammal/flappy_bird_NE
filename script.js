@@ -10,7 +10,7 @@ var gen = 1;
 var speed = 5;
 var frequency = 100;
 
-var population = 25;
+var population = 500;
 var player_left;
 var current_score = 0;
 var score_list = new Array(population).fill(0);
@@ -55,7 +55,7 @@ function setup(){
 	gp = createGraphics(400,400);
 	// randomSeed(12);
 	for (var i = 0; i < population; i++){
-		birds.push(new Bird([bird_imgs[i*2], bird_imgs[i*2+1]], new Neural_network(NN_shape)));
+		birds.push(new Bird([bird_imgs[0], bird_imgs[1]], new Neural_network(NN_shape)));
 	}
 }
 
@@ -149,6 +149,7 @@ function draw(){
 	stroke(0);
 	textSize(16);
 
+	/*
 	for (let i = 0; i < birds.length; i++){
 		push();
 		birds[i].showScore(x+padx, y+pady);
@@ -166,6 +167,7 @@ function draw(){
 			x += 2 * (birds[i].width * 1.5 + padx);
 		}
 	}
+	*/
 	//noLoop();
 
 }
